@@ -96,5 +96,12 @@
       {"file": "drivebywire1.png", "v": 1 },
       {"file": "sableschematictool1.png", "v": 1 }
     ]
+  },
+  {
+    "name": "lanlan3292",
+    "color": "#9cb7e7",
+    "banners": [
+      { "file": "framed1.png", "v": 1 }
+    ]
   }
 ]
