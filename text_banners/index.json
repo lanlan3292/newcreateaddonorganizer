@@ -1,0 +1,9 @@
+[
+  {
+    "name": "Debug",
+    "color": "#FFAA00",
+    "textures": [
+      { "file": "debug_test.png", "v": 2 }
+    ]
+  }
+]
