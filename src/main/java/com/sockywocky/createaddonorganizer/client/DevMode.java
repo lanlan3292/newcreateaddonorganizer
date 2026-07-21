@@ -84,7 +84,8 @@ public final class DevMode {
                 unlocked = false;
                 Notice.show(Component.translatable("createaddonorganizer.devmode.deactivated"), Notice.RED);
             } else {
-                mc.setScreen(new DevCodeScreen(current));
+                unlocked = true;
+                Notice.show(Component.translatable("createaddonorganizer.devmode.activated"), Notice.GREEN);
             }
         }
     }
