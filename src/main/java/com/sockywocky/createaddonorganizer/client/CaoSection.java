@@ -111,7 +111,7 @@ public record CaoSection(ResourceLocation id, Component title, ColorSpec bannerC
                 texHeight = anim.get().frameCount() * BannerTextures.HEIGHT;
             }
             g.blit(texture, x1, contentTop, CONTENT_W, CONTENT_H, 0f, v,
-                    BannerTextures.WIDTH, BannerTextures.HEIGHT, BannerTextures.WIDTH, texHeight);
+                    BannerTextures.WIDTH, CONTENT_H, BannerTextures.WIDTH, texHeight);
         } else {
             BannerFill.draw(g, x1, contentTop, x2, contentBottom, bannerColor);
         }

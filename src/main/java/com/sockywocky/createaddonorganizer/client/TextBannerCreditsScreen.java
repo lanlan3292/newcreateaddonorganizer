@@ -208,7 +208,7 @@ public class TextBannerCreditsScreen extends Screen {
                 }
 
                 int previewW = BannerTextures.WIDTH;
-                int previewH = BannerTextures.HEIGHT;
+                int previewH = BoxTextures.HEIGHT;
                 int bx = left + (rowWidth - previewW) / 2;
                 int by = top + (rowHeight - previewH) / 2;
                 g.fill(bx - 1, by - 1, bx + previewW + 1, by + previewH + 1, 0xFF000000);

@@ -1074,7 +1074,7 @@ public class ColorPickerScreen extends Screen {
             }
 
             g.blit(selectedTexture, bx, by, BannerTextures.WIDTH, renderHeight, 0.0F, v,
-                    BannerTextures.WIDTH, BannerTextures.HEIGHT, BannerTextures.WIDTH, texHeight);
+                    BannerTextures.WIDTH, renderHeight, BannerTextures.WIDTH, texHeight);
         } else {
             g.drawCenteredString(this.font, Component.translatable("createaddonorganizer.banner.none"),
                     bx + BannerTextures.WIDTH / 2, by + (renderHeight - 8) / 2, 0xFF888888);
@@ -1424,7 +1424,7 @@ public class ColorPickerScreen extends Screen {
             public void render(GuiGraphics g, int index, int top, int left, int rowWidth, int rowHeight,
                     int mouseX, int mouseY, boolean hovered, float partialTick) {
                 int previewW = BannerTextures.WIDTH;
-                int previewH = BannerTextures.HEIGHT;
+                int previewH = BoxTextures.HEIGHT;
                 int bx = left + (rowWidth - previewW) / 2;
                 int by = top + (rowHeight - previewH) / 2;
                 boolean selected = ref.equals(selectedBoxRef);
